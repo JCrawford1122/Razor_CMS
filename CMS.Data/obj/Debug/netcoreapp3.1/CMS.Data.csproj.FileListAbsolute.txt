@@ -1,0 +1,11 @@
+C:\Users\crawf\source\repos\ScheduleApp\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.deps.json
+C:\Users\crawf\source\repos\ScheduleApp\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.dll
+C:\Users\crawf\source\repos\ScheduleApp\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Data.pdb
+C:\Users\crawf\source\repos\ScheduleApp\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Core.dll
+C:\Users\crawf\source\repos\ScheduleApp\CMS.Data\bin\Debug\netcoreapp3.1\CMS.Core.pdb
+C:\Users\crawf\source\repos\ScheduleApp\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.csprojAssemblyReference.cache
+C:\Users\crawf\source\repos\ScheduleApp\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.AssemblyInfoInputs.cache
+C:\Users\crawf\source\repos\ScheduleApp\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.AssemblyInfo.cs
+C:\Users\crawf\source\repos\ScheduleApp\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.csproj.CopyComplete
+C:\Users\crawf\source\repos\ScheduleApp\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.dll
+C:\Users\crawf\source\repos\ScheduleApp\CMS.Data\obj\Debug\netcoreapp3.1\CMS.Data.pdb

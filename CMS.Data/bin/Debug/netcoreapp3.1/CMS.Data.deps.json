@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CMS.Data/1.0.0": {
+        "dependencies": {
+          "CMS.Core": "1.0.0"
+        },
+        "runtime": {
+          "CMS.Data.dll": {}
+        }
+      },
+      "CMS.Core/1.0.0": {
+        "runtime": {
+          "CMS.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CMS.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CMS.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

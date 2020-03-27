@@ -1,0 +1,29 @@
+﻿@page "{CustomerId:int}"
+@model ScheduleApp.Pages.Customers.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<h2>@Model.Customer.LastName, @Model.Customer.FirstName</h2>
+<ul class="list-unstyled">
+    <li>
+        Last Name:  @Model.Customer.LastName
+    </li>
+    <li>
+        First Name:  @Model.Customer.FirstName
+    </li>
+    <li>
+        Phone:  @Model.Customer.PhoneNumber
+    </li>
+    <li>
+        Address:  @Model.Customer.Address
+    </li>
+    <li>
+        City: @Model.Customer.City
+    </li>
+    <li>
+        Country: @Model.Customer.Country
+    </li>
+</ul>
+<a class="btn btn-primary" asp-page="./CustomerList">All Customers</a>

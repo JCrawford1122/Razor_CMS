@@ -1,0 +1,46 @@
+﻿@page
+@model ScheduleApp.Pages.Customers.CustomerListModel
+@{
+    <h1>Customers List</h1>
+    <div class="col-md-4">
+    <form method="get" class="form">
+        <div class="form-group">
+            <div class="input-group">
+                <input type="search" class="form-control" asp-for = "SearchTerm" />
+               
+                    <button class="btn btn-primary">
+                        Search
+                    </button>
+                
+            </div>
+        </div>
+    </form>
+        </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(c => c.Customers.FirstOrDefault().LastName)</th>
+                
+                <th>@Html.DisplayNameFor(c => c.Customers.FirstOrDefault().FirstName)</th>
+                <th>@Html.DisplayNameFor(c => c.Customers.FirstOrDefault().PhoneNumber)</th>
+                <th>@Html.DisplayNameFor(c => c.Customers.FirstOrDefault().Address)</th>
+                <th>@Html.DisplayNameFor(c => c.Customers.FirstOrDefault().City)</th>
+                <th>@Html.DisplayNameFor(c => c.Customers.FirstOrDefault().Country)</th>
+            </tr>  
+        </thead>
+        <tbody>
+        @foreach(var customer in Model.Customers)
+        {
+            <tr>
+                <td>@customer.LastName</td>
+                <td>@customer.FirstName</td>
+                <td>@customer.PhoneNumber</td>
+                <td>@customer.Address</td>
+                <td>@customer.City</td>
+                <td>@customer.Country</td>
+                <td><a class="btn btn-primary" asp-page="./Details" asp-route-customerId="@customer.Id"></a></td>
+            </tr>
+        }
+            </tbody>
+    </table>
+}

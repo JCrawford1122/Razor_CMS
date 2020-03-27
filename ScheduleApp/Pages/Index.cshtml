@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class=" jumbotron text-center">
+    <h1 class="display-4">Welcome to the Customer Management System</h1>
+    
+</div>
+<div class="row">
+    <div class="col-md-4 text-left">
+        <a asp-page="./Customers/CustomerList" class="btn btn-lg btn-primary">Manage Customers</a>
+    </div>
+    <div class="col-md-4 text-center">
+        <a href="#" class="btn btn-lg btn-primary">Manage Appointments</a>
+    </div>
+    <div class="col-md-4 text-right">
+        <a href="#" class="btn btn-lg btn-primary">View Reports</a>
+    </div>
+</div>

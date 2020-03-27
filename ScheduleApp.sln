@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleApp", "ScheduleApp\ScheduleApp.csproj", "{DB6D4C67-45B2-4BDC-B0C8-3C30DCA76C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Core", "CMS.Core\CMS.Core.csproj", "{6186F460-30FC-41A9-A43F-230A742928CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Data", "CMS.Data\CMS.Data.csproj", "{4A8E313F-CDFC-4E32-9D6C-19CA6E2FBF62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB6D4C67-45B2-4BDC-B0C8-3C30DCA76C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6D4C67-45B2-4BDC-B0C8-3C30DCA76C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6D4C67-45B2-4BDC-B0C8-3C30DCA76C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6D4C67-45B2-4BDC-B0C8-3C30DCA76C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6186F460-30FC-41A9-A43F-230A742928CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6186F460-30FC-41A9-A43F-230A742928CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6186F460-30FC-41A9-A43F-230A742928CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6186F460-30FC-41A9-A43F-230A742928CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8E313F-CDFC-4E32-9D6C-19CA6E2FBF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8E313F-CDFC-4E32-9D6C-19CA6E2FBF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8E313F-CDFC-4E32-9D6C-19CA6E2FBF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8E313F-CDFC-4E32-9D6C-19CA6E2FBF62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42D96078-9904-440C-AA52-87BA5BE76FD9}
+	EndGlobalSection
+EndGlobal
