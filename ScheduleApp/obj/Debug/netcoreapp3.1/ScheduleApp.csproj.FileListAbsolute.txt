@@ -112,3 +112,4 @@ C:\Users\crawf\source\repos\ScheduleApp\ScheduleApp\bin\Debug\netcoreapp3.1\zh-H
 C:\Users\crawf\source\repos\ScheduleApp\ScheduleApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\crawf\source\repos\ScheduleApp\ScheduleApp\obj\Debug\netcoreapp3.1\ScheduleApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\crawf\source\repos\ScheduleApp\ScheduleApp\obj\Debug\netcoreapp3.1\Razor\Pages\Customers\Details.cshtml.g.cs
+C:\Users\crawf\source\repos\ScheduleApp\ScheduleApp\obj\Debug\netcoreapp3.1\Razor\Pages\Customers\NotFound.cshtml.g.cs

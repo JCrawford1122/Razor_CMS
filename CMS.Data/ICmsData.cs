@@ -9,11 +9,13 @@ namespace CMS.Data
     public interface ICmsData
     {
         IEnumerable<Customer> GetCustomersByName(string customerName);
+        Customer CustomerById(int id);
     }
 
     // Used for in development data
     public class InMemoryCustomers : ICmsData
     {
+
         List<Customer> customers;
         public InMemoryCustomers()
         {
@@ -23,7 +25,7 @@ namespace CMS.Data
                     Address = "3321 Perry Ave", City = Customer.Cities.Phoenix, Country = Customer.Countries.United_States},
                 new Customer{Id = 2, LastName ="Brilinski", FirstName="Tyler", PhoneNumber="360-710-1111",
                     Address = "123 Fir St", City = Customer.Cities.New_York, Country = Customer.Countries.United_States},
-                new Customer{Id = 2, LastName = "Crawford", FirstName="Max", PhoneNumber = "360-123-4567",
+                new Customer{Id = 3, LastName = "Crawford", FirstName="Max", PhoneNumber = "360-123-4567",
                     Address = "987 Pine St", City = Customer.Cities.London, Country = Customer.Countries.England}
 
             };
@@ -34,6 +36,11 @@ namespace CMS.Data
                    where string.IsNullOrEmpty(customerName) || c.LastName.StartsWith(customerName)
                    orderby c.LastName
                    select c;
+        }
+        
+        public Customer CustomerById(int id)
+        {
+            return customers.SingleOrDefault(c => c.Id == id);
         }
     }
 }
